@@ -25,6 +25,8 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 - [React](https://reactjs.org/) - JS library
 - [Vite](https://vitejs.dev/) - Frontend Tooling
 - [Tailwind](https://tailwindcss.com/) - For styles
+- [Vitest](https://vitest.dev/) - Testing framework
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) - For tests
 
 ## Getting Started
 
@@ -39,6 +41,11 @@ npm install
 ### Run Project
 ```
 npm run dev
+```
+
+### Run Tests
+```
+npm run test
 ```
 
 ### Build for Production
