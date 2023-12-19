@@ -8,9 +8,9 @@ html, body { font-size: 16px; min-height: 100%; margin: 0; padding: 0; }
 body { height: 100%; }
 #root { min-height: 100vh; }
 
-.bg-app { background: hsl(275, 100%, 97%) url(./assets/images/background-pattern-mobile.svg) no-repeat center top / 375px auto }
+main { background: hsl(275, 100%, 97%) url(./assets/images/background-pattern-mobile.svg) no-repeat center top / 375px auto }
 @media (min-width: 376px) {
-  .bg-app { background: hsl(275, 100%, 97%) url(./assets/images/background-pattern-desktop.svg) no-repeat center top / 1440px auto }
+  main { background: hsl(275, 100%, 97%) url(./assets/images/background-pattern-desktop.svg) no-repeat center top / 1440px auto }
 }
 
 .text-dark { color: hsl(292, 42%, 14%); }

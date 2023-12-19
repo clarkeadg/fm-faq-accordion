@@ -3,7 +3,7 @@ import FAQ from './components/FAQ/FAQ'
 
 const App = () => {
   return (
-    <main className="bg-app relative flex flex-col min-h-screen items-center pt-44 pb-10">
+    <main className="relative flex flex-col min-h-screen items-center pt-44 pb-10">
       <div className="px-10 md:px-0">
         <FAQ/>
       </div>
