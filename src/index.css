@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Work+Sans:wght@400;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,7 +13,13 @@ body { height: 100%; }
   .bg-app { background: hsl(275, 100%, 97%) url(./assets/images/background-pattern-desktop.svg) no-repeat center top / 1440px auto }
 }
 
-.bg-card { background-color: hsl(0, 0%, 100%); max-width: 580px; }
+.bg-card { background-color: hsl(0, 0%, 100%); max-width: 600px; }
+
 .text-dark { color: hsl(292, 42%, 14%); }
 .text-light { color: hsl(292, 16%, 49%); }
+
+.faq-title { background: url(./assets/images/icon-star.svg) no-repeat left center / 2.5rem auto; }
+@media (max-width: 640px) {
+  .faq-title { background-size: 2rem auto; }
+}
 

@@ -1,10 +1,10 @@
-import Accordion from './Accordion'
+import Accordion from './Accordion/Accordion'
 
 const FAQ = () => {
   return (
     <div className="bg-card rounded-lg md:rounded-3xl overflow-hidden p-4">  
       <div className="px-4 py-6">
-        <div className="text-dark font-bold text-4xl md:text-6xl leading-tight mb-4">
+        <div className="faq-title text-dark font-bold text-4xl md:text-6xl leading-tight mb-2 pl-14 md:pl-16">
           FAQs
         </div>
         <Accordion title={"What is Frontend Mentor, and how will it help me?"}>

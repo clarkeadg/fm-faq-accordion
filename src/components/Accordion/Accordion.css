@@ -1,0 +1,10 @@
+
+.accordion { border-bottom: 1px solid hsl(248, 80%, 98%); }
+.accordion:last-of-type { border-bottom: none; }
+.accordion-title { background: url(../../assets/images/icon-plus.svg) no-repeat right center / 2rem auto; }
+.accordion-title:hover { color: hsl(281, 92%, 62%); }
+.accordion.active .accordion-title { background: url(../../assets/images/icon-minus.svg) no-repeat right center / 2rem auto; }
+
+.accordion-content { max-height: 0px; overflow: hidden; transition: max-height .25s }
+.accordion.active .accordion-content { max-height: 500px; }
+
