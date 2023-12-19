@@ -6,13 +6,11 @@ import Accordion from './Accordion';
 describe('Renders Accordion component correctly', async () => {
 
   const { container } = render(
-    <div>
-      <Accordion title="Title">
-        <div>
-          Content
-        </div>
-      </Accordion>
-    </div>
+    <Accordion title="Title">
+      <div>
+        Content
+      </div>
+    </Accordion>
   );
 
   const title = container.querySelector('.accordion-title');

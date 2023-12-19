@@ -1,5 +1,5 @@
 import Attribution from './components/Attribution'
-import FAQ from './components/FAQ'
+import FAQ from './components/FAQ/FAQ'
 
 const App = () => {
   return (

@@ -1,0 +1,8 @@
+
+.faq { background-color: hsl(0, 0%, 100%); max-width: 595px; }
+
+.faq-title { background: url(./assets/images/icon-star.svg) no-repeat left center / 2.5rem auto; }
+@media (max-width: 640px) {
+  .faq-title { background-size: 2rem auto; }
+}
+

@@ -1,8 +1,9 @@
-import Accordion from './Accordion/Accordion'
+import Accordion from '../Accordion/Accordion'
+import './FAQ.css'
 
 const FAQ = () => {
   return (
-    <div className="bg-card rounded-xl shadow-lg overflow-hidden p-4">  
+    <div className="faq rounded-xl shadow-lg overflow-hidden p-4">  
       <div className="px-4 py-6">
         <h1 className="faq-title text-dark font-bold text-4xl md:text-6xl leading-tight mb-2 pl-14 md:pl-16">
           FAQs
