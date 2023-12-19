@@ -13,7 +13,7 @@ body { height: 100%; }
   .bg-app { background: hsl(275, 100%, 97%) url(./assets/images/background-pattern-desktop.svg) no-repeat center top / 1440px auto }
 }
 
-.bg-card { background-color: hsl(0, 0%, 100%); max-width: 600px; }
+.bg-card { background-color: hsl(0, 0%, 100%); max-width: 595px; }
 
 .text-dark { color: hsl(292, 42%, 14%); }
 .text-light { color: hsl(292, 16%, 49%); }

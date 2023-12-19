@@ -3,14 +3,14 @@ import FAQ from './components/FAQ'
 
 const App = () => {
   return (
-    <div className="bg-app relative flex flex-col min-h-screen items-center pt-44 pb-10">
+    <main className="bg-app relative flex flex-col min-h-screen items-center pt-44 pb-10">
       <div className="px-10 md:px-0">
         <FAQ/>
       </div>
       <div className="absolute bottom-0 w-full h-10 flex items-center justify-center">
         <Attribution/>
       </div>
-    </div>
+    </main>
   )
 }
 
