@@ -7,7 +7,7 @@ const FAQ = () => {
         <div className="faq-title text-dark font-bold text-4xl md:text-6xl leading-tight mb-2 pl-14 md:pl-16">
           FAQs
         </div>
-        <Accordion title={"What is Frontend Mentor, and how will it help me?"}>
+        <Accordion title={"What is Frontend Mentor, and how will it help me?"} active={true}>
           <p className="text-light">
             Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.
           </p>
