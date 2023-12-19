@@ -56,5 +56,5 @@ npm run build
 ## Author
 
 - Website - [Brian Clarke](https://www.clarkeanimation.com)
-- Frontend Mentor - [@clarkeadg](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@clarkeadg](https://www.frontendmentor.io/profile/clarkeadg)
 
