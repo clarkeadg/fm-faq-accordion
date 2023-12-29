@@ -8,6 +8,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [Built with](#built-with)
+- [Getting Started](#getting-started)
 - [Author](#author)
 
 ## Overview
